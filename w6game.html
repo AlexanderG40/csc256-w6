@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Six Game Stats</title>
+    <link href="./style/main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Alexander's Awesome Game Stats Collector</h1>
+    </header>
+    <main class="container">
+        <form id="frmGameDetails">
+            <label for="txtUserName">User Name: </label>
+            <input type="text" id="txtUserName" name="txtUserName" required>
+            <!-- Sets the labels for the weapon, username, health and coins/points -->
+            <label for="txtWeapon">Weapon: </label>
+            <input type="text" id="txtWeapon" name="txtWeapon" required>
+
+            <label for="txtHealth">Health/Damage: </label>
+            <input type="text" id="txtHealth" name="txtHealth" required>
+
+            <label for="txtCoins">Total Coins: </label>
+            <input type="text" id="txtCoins" name="txtCoins" required>
+
+            <button type="submit" onclick="submitForm();">Submit</button>
+        </form>
+
+        <div id="output">
+            <h2>Player Info</h2>
+            <textarea id="txtAOutput" readonly></textarea>
+        </div>
+    </main>
+
+    <script src="./js/gamestats.js"></script>
+</body>
+</html>

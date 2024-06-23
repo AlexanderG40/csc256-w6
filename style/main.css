@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(17, 49, 176);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+/* Added styles to the header and h2 */
+header, h2{
+    color: rgb(114, 185, 188);
+    text-align: center;
+}
+/* Added styles to the container */
+.container{
+    width: 50%;
+    margin: auto; /* this should center the container horizontally */
+    padding: 20px;
+    background-color: rgb(15, 111, 95);
+    box-shadow: 0 0 10px rgb(114, 185, 188);
+    color: blueviolet;
+    border-radius: 10px;
+}
+/* Added styles to the form*/
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input[type="text"], textarea{
+    padding: 10px;
+    margin-top: 9px;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    width: 100%;
+    display: block;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: rgb(77, 76, 29);
+    border-color: chartreuse;
+    cursor: pointer;
+    
+}
+
+textarea{
+    height: 190px;
+    resize: none;
+
+}
